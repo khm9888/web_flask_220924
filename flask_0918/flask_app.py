@@ -206,6 +206,6 @@ def delete(id):
     return redirect("/")
 
 
-app.run(debug=True)
+app.run()
 
 # 10. 웹서버 구현
